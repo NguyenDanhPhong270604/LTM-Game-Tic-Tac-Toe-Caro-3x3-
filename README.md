@@ -24,37 +24,36 @@
 ---
 
 ## 📖 1. Giới thiệu hệ thống
-Hệ thống **Game Cờ Caro 3x3 sử dụng giao thức TCP** được xây dựng theo mô hình **Client/Server**.  
+Hệ thống Game Cờ Caro 3x3 sử dụng giao thức TCP được xây dựng theo mô hình Client/Server.  
 Server chịu trách nhiệm:
 - Quản lý danh sách người chơi đang kết nối.  
 - Đồng bộ lượt đánh và gửi thông tin ván đấu tới tất cả client.  
 - Lưu lịch sử ván chơi (thắng/thua/hòa) vào cơ sở dữ liệu.  
 
-Client có giao diện **Java Swing**, cho phép người dùng:
+Client có giao diện Java Swing, cho phép người dùng:
 - Đăng nhập/nhập tên người chơi.  
 - Chơi cờ Caro 3x3 trực tuyến theo thời gian thực.  
 - Xem thông báo khi thắng, thua hoặc hòa.  
 
-Giao thức **TCP** được chọn vì tính **đảm bảo truyền tin cậy**:  
+Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:  
 - Không mất gói dữ liệu (các nước đi được truyền đầy đủ, chính xác).  
 - Duy trì kết nối liên tục cho đến khi trận đấu kết thúc.  
 
 ---
 
 ## 🔧 2. Công nghệ sử dụng
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/) | Xây dựng logic Client/Server và giao diện người dùng. |
-[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/) + JDBC | Lưu trữ thông tin lịch sử ván chơi (người thắng/thua, thời gian). |
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 ---
 
 ## 🚀 3. Hình ảnh các chức năng
-_(Thêm ảnh minh họa giao diện client, server, bàn cờ tại đây nếu có)_
+_
 
 ---
 
 ## ⚙️ 4. Các bước cài đặt
 
 1. **Clone dự án**  
-   ```bash
    git clone https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-.git
    cd LTM-Game-Tic-Tac-Toe-Caro-3x3-
