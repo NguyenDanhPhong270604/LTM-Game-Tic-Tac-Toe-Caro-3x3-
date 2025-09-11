@@ -57,3 +57,9 @@ _
 1. **Clone dự án**  
    git clone https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-.git
    cd LTM-Game-Tic-Tac-Toe-Caro-3x3-
+### [Khoá 16](./docs/projects/K16/README.md)
+## 📞 5. Liên hệ
+- Email: danhphong200412@gmail.com 
+- Github: https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
