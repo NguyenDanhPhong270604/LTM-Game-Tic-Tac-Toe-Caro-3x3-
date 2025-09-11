@@ -73,13 +73,6 @@ _
 
 ---
 
-### 🛠️ Biên dịch mã nguồn
-Mở terminal (hoặc CMD) và điều hướng đến thư mục chứa mã nguồn.  
-Chạy lệnh sau để biên dịch toàn bộ file `.java`:
-
-```bash
-java -cp "build;lib/sqlite-jdbc-3.50.3.0.jar" caro.GameServer
-java -cp "build;lib/sqlite-jdbc-3.50.3.0.jar" caro.GameClient
 ## 📞 5. Liên hệ
 - Email: danhphong200412@gmail.com 
 - Github: https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-
