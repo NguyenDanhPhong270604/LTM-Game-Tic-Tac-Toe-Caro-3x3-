@@ -52,12 +52,11 @@ _
 
 ---
 
-## ⚙️ 4. Các bước cài đặt
+## ⚙️ 4. Các bước cài đặt & Chạy ứng dụng
 
 1. **Clone dự án**  
    git clone https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-.git
    cd LTM-Game-Tic-Tac-Toe-Caro-3x3-
-   ## ⚙️ 4. Các bước cài đặt & Chạy ứng dụng
 
 ### 🖥️ Yêu cầu hệ thống
 - **Java Development Kit (JDK)** phiên bản **8** hoặc cao hơn.  
