@@ -42,16 +42,8 @@ Giao thức **TCP** được chọn vì tính **đảm bảo truyền tin cậy*
 ---
 
 ## 🔧 2. Công nghệ sử dụng
-
-| Thành phần | Công nghệ / Công cụ | Mô tả |
-|-----------|------------------|-------|
-| **Ngôn ngữ lập trình** | [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/) | Xây dựng logic Client/Server và giao diện người dùng. |
-| **Giao thức mạng** | **TCP Socket** | Truyền dữ liệu tin cậy giữa client và server. |
-| **Giao diện người dùng** | **Java Swing** | Hiển thị bàn cờ, nước đi, trạng thái game. |
-| **Cơ sở dữ liệu** | [![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/) + JDBC | Lưu trữ thông tin lịch sử ván chơi (người thắng/thua, thời gian). |
-| **Thư viện** | **SQLite JDBC** | Kết nối và thao tác cơ sở dữ liệu từ Java. |
-| **Quản lý mã nguồn** | [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) | Theo dõi và quản lý phiên bản mã nguồn. |
-| **Công cụ phát triển** | IntelliJ IDEA / NetBeans / Eclipse | IDE hỗ trợ code, gỡ lỗi và chạy ứng dụng. |
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/) | Xây dựng logic Client/Server và giao diện người dùng. |
+[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/) + JDBC | Lưu trữ thông tin lịch sử ván chơi (người thắng/thua, thời gian). |
 
 ---
 
