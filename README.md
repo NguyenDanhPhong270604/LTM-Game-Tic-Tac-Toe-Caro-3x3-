@@ -57,7 +57,28 @@ _
 1. **Clone dự án**  
    git clone https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-.git
    cd LTM-Game-Tic-Tac-Toe-Caro-3x3-
-### [Khoá 16](./docs/projects/K16/README.md)
+   ## ⚙️ 4. Các bước cài đặt & Chạy ứng dụng
+
+### 🖥️ Yêu cầu hệ thống
+- **Java Development Kit (JDK)** phiên bản **8** hoặc cao hơn.  
+- **IDE** (IntelliJ IDEA / NetBeans / Eclipse) hoặc **Terminal/Command Prompt** để biên dịch và chạy mã.  
+
+---
+
+### 📂 Chuẩn bị mã nguồn
+- Đảm bảo bạn đã có đầy đủ các file trong package `UngDungChat_TCP`, bao gồm:
+  - `Server.java`
+  - `Client.java`
+  - (và các file hỗ trợ khác nếu có)
+
+---
+
+### 🛠️ Biên dịch mã nguồn
+Mở terminal (hoặc CMD) và điều hướng đến thư mục chứa mã nguồn.  
+Chạy lệnh sau để biên dịch toàn bộ file `.java`:
+
+```bash
+javac UngDungChat_TCP/*.java
 ## 📞 5. Liên hệ
 - Email: danhphong200412@gmail.com 
 - Github: https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-
