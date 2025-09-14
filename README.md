@@ -165,14 +165,14 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 #### ▶️ Bước 3: Chạy ứng dụng 
 **Khởi động Server**: <br>
 ```bash
-    java -cp bin server.CaroServer
+    java -cp bin server.CaroServer `
 Server sẽ khởi động trên port mặc định (8000) bạn có thể thay đổi.
 
 Giao diện server sẽ hiển thị và sẵn sàng nhận kết nối từ client
 
 **Khởi động Client**: <br>
 ```bash
-    java -cp bin client.CaroClient
+    java -cp bin client.CaroClient `
 Mở terminal mới cho mỗi client muốn tham gia
 
 Nhập tên người dùng khi được yêu cầu đăng nhập (ví dụ: Phóng, Trường, Long)
