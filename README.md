@@ -77,8 +77,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 
 ## 🔧 2. Công nghệ sử dụng
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
+[![JDK](https://img.shields.io/badge/JDK-8%2B-green?style=for-the-badge)]()
 ---
 
 ## 🚀 3. Hình ảnh các chức năng
