@@ -70,7 +70,44 @@ Hòa khi bàn cờ đầy không có người thắng
 ---
 
 ## 🚀 3. Hình ảnh các chức năng
-_
+
+<p align="center">
+  <img src="docs/anhGiaoDien.jpg" alt="Ảnh 1" width="800"/>
+</p>
+
+<p align="center">
+  <em>Hình 1: Giao diện chat giữa Client-Server </em>
+</p>
+
+<p align="center">
+  <img src="docs/anhClientChatServer.jpg" alt="Ảnh 2" width="700"/>
+</p>
+<p align="center">
+  <em> Hình 2: Client chat với Server</em>
+</p>
+
+
+<p align="center">
+  <img src="docs/anhLichSuChatLuuTxt.jpg" alt="Ảnh 3" width="500"/>
+ 
+</p>
+<p align="center">
+  <em> Hình 3: Ảnh lịch sử chat được lưu vào file txt </em>
+</p>
+
+<p align="center">
+    <img src="docs/anhServerxoaDL.jpg" alt="Ảnh 4" width="450"/>
+</p>
+<p align="center">
+  <em> Hình 4: Ảnh Server xóa dữ liệu</em>
+</p>
+
+<p align="center">
+  <img src="docs/anhServerngatKetNoiClient.jpg" alt="Ảnh 5" width="300"/>
+</p>
+<p align="center">
+  <em> Hình 7: Ảnh Server ngắt kết nối với CLient</em>
+</p>
 
 ---
 
