@@ -37,26 +37,26 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 - Không mất gói dữ liệu (các nước đi được truyền đầy đủ, chính xác).  
 - Duy trì kết nối liên tục cho đến khi trận đấu kết thúc.  
 
-🎮 Các chức năng chính:
-**Server**
+🎮 Các chức năng chính:<br>
+**Server** <br>
 🔌 Kết nối & Quản lý - Port 8000, đa luồng <br>
 🎯 Quản lý trận đấu - Logic game Caro 3x3 <br>
 📊 Theo dõi thống kê - Thắng/thua của người chơi <br>
 💾 Lưu trữ lịch sử - File player_history.txt <br>
 👥 Quản lý Client - Danh sách người chơi online <br>
-**Client**
+**Client** <br>
 🔗 Kết nối đến Server - Giao tiếp qua TCP <br>
 🎨 Giao diện đồ họa - Java Swing <br>
 ⚡ Thách đấu real-time - Chọn người chơi online <br>
 🎮 Chơi game Caro - X màu xanh, O màu đỏ <br>
 📊 Xem lịch sử - Thống kê người chơi <br>
 🔄 Làm mới - Reset bàn cờ và trạng thái <br>
-**Hệ Thống**
+**Hệ Thống** <br>
 🌐 Giao thức TCP - ServerSocket và Socket, đa luồng <br>
 💾 Lưu trữ dữ liệu - File I/O cho lịch sử người chơi <br>
 🛡️ Xử lý Lỗi - Thông báo lỗi trong GUI, debug log <br>
 🏆 Logic game - Kiểm tra thắng thua 3x3 <br>
-**Luật Chơi**
+**Luật Chơi** <br>
 Bàn cờ 3x3 <br>
 Thắng khi có 3 quân cùng hàng, cột hoặc chéo <br>
 Hòa khi bàn cờ đầy không có người thắng <br>
