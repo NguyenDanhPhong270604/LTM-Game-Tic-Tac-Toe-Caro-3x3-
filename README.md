@@ -90,12 +90,11 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
     <img src="https://img.shields.io/badge/Java-Swing-orange?style=for-the-badge" />
   </a>
 </p>
----
 
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="docs/anh1.jpg" alt="Ảnh 1" width="800"/>
+  <img src="/BTLTicTacToe/docs/anh1.jpg" alt="Ảnh 1" width="800"/>
 </p>
 
 <p align="center">
