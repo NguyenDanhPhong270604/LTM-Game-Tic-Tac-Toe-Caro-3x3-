@@ -22,13 +22,12 @@
 </div>
 
 ---
-
 ## 📖 1. Giới thiệu hệ thống
-Hệ thống Game Cờ Caro 3x3 sử dụng giao thức TCP được xây dựng theo mô hình Client/Server.  
+Ứng dụng Game Caro 3x3 sử dụng giao thức TCP cho phép nhiều người chơi thách đấu và thi đấu với nhau qua mạng.
 Server chịu trách nhiệm:
-- Quản lý danh sách người chơi đang kết nối.  
-- Đồng bộ lượt đánh và gửi thông tin ván đấu tới tất cả client.  
-- Lưu lịch sử ván chơi (thắng/thua/hòa) vào cơ sở dữ liệu.  
+**Client** : cung cấp giao diện chơi game và thách đấu.
+**Server** : đóng vai trò trung tâm, quản lý kết nối, trận đấu và lịch sử người chơi.
+**Lưu trữ dữ liệu** : lịch sử người chơi (thắng/thua) được lưu vào file văn bản. 
 
 Client có giao diện Java Swing, cho phép người dùng:
 - Đăng nhập/nhập tên người chơi.  
@@ -39,6 +38,29 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 - Không mất gói dữ liệu (các nước đi được truyền đầy đủ, chính xác).  
 - Duy trì kết nối liên tục cho đến khi trận đấu kết thúc.  
 
+🎮 Các chức năng chính:
+**Server**
+🔌 Kết nối & Quản lý - Port 8000, đa luồng
+🎯 Quản lý trận đấu - Logic game Caro 3x3
+📊 Theo dõi thống kê - Thắng/thua của người chơi
+💾 Lưu trữ lịch sử - File player_history.txt
+👥 Quản lý Client - Danh sách người chơi online
+**Client**
+🔗 Kết nối đến Server - Giao tiếp qua TCP
+🎨 Giao diện đồ họa - Java Swing
+⚡ Thách đấu real-time - Chọn người chơi online
+🎮 Chơi game Caro - X màu xanh, O màu đỏ
+📊 Xem lịch sử - Thống kê người chơi
+🔄 Làm mới - Reset bàn cờ và trạng thái
+**Hệ Thống**
+🌐 Giao thức TCP - ServerSocket và Socket, đa luồng
+💾 Lưu trữ dữ liệu - File I/O cho lịch sử người chơi
+🛡️ Xử lý Lỗi - Thông báo lỗi trong GUI, debug log
+🏆 Logic game - Kiểm tra thắng thua 3x3
+**Luật Chơi**
+Bàn cờ 3x3
+Thắng khi có 3 quân cùng hàng, cột hoặc chéo
+Hòa khi bàn cờ đầy không có người thắng
 ---
 
 ## 🔧 2. Công nghệ sử dụng
