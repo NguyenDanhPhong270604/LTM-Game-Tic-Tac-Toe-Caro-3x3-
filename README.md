@@ -185,7 +185,7 @@ java -cp bin client.CaroClient
 - Nhập tên người dùng khi được yêu cầu đăng nhập (ví dụ: Phóng, Trường, Long)
 - Client sẽ kết nối đến server và hiển thị giao diện Cờ Caro (3x3)
   
-### 🚀 Cách sử dụng ứng dụng
+### 🚀 Cách Chơi
 1. Đăng nhập: Nhập tên người chơi khi mở client.
 2. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
 ### 🎮 Chơi game:
@@ -194,9 +194,9 @@ java -cp bin client.CaroClient
 - 🏆 **Thắng:** Khi có 3 ô liên tiếp hàng / cột / chéo
 - 🤝 **Hòa:** Khi bàn cờ đầy mà không ai thắng
 4. Lịch sử người chơi: Mở cửa sổ thống kê để xem số trận thắng/thua.
-5. Kết thúc: Đóng cửa sổ hoặc nhấn Ctrl+C trong terminal để thoát.
+5. Kết thúc: Đóng cửa sổ để thoát.
 ## 📞 5. Liên hệ
-**Email** : danhphong200412@gmail.com 
-**Github**: https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-
+- <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20"/> **Email**: [danhphong200412@gmail.com](mailto:danhphong200412@gmail.com)  
+- <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20"/> **GitHub**: [NguyenDanhPhong270604](https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-)
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
