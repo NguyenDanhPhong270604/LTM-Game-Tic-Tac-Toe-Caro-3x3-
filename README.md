@@ -76,8 +76,20 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ---
 
 ## 🔧 2. Công nghệ sử dụng
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![JDK](https://img.shields.io/badge/JDK-8%2B-green?style=for-the-badge)]()
+<p align="center">
+  <a href="https://www.java.com/">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  </a>
+  <a href="https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html">
+    <img src="https://img.shields.io/badge/JDK-8+-green?style=for-the-badge" />
+  </a>
+  <a href="https://docs.oracle.com/javase/tutorial/networking/sockets/index.html">
+    <img src="https://img.shields.io/badge/TCP-Socket-blue?style=for-the-badge" />
+  </a>
+  <a href="https://docs.oracle.com/javase/tutorial/uiswing/">
+    <img src="https://img.shields.io/badge/Java-Swing-orange?style=for-the-badge" />
+  </a>
+</p>
 ---
 
 ## 🚀 3. Hình ảnh các chức năng
