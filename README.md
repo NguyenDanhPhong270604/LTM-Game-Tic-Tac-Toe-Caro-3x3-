@@ -154,16 +154,21 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ```bash
         BTLTicTacToe/<br>
     └── src/ <br>
-         ├── client/        # Code giao diện và logic phía client <br>
-         ├── server/        # Code xử lý server & quản lý kết nối <br>
-         └── shared/        # Các class dùng chung giữa client & server <br>
+         ├── client/        # Code giao diện và logic phía client 
+         ├── server/        # Code xử lý server & quản lý kết nối 
+         └── shared/        # Các class dùng chung giữa client & server 
 ```
    
 #### 🏗 Bước 2: Biên dịch mã nguồn
 1. Mở terminal và điều hướng đến thư mục dự án: <br>
+```bash
    cd D:\Download\BTLTicTacToe>
+```
 2. Biên dịch tất cả file Java <br>
+```bash
    javac *.java
+```
+
 #### ▶️ Bước 3: Chạy ứng dụng 
 **Khởi động Server:**
 ```bash
@@ -184,9 +189,10 @@ java -cp bin client.CaroClient
 1. Đăng nhập: Nhập tên người chơi khi mở client.
 2. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
 3. Chơi game:
-   - X màu xanh, O màu đỏ
-   - Thắng khi có 3 ô liên tiếp hàng/cột/chéo
-   - Hòa khi bàn cờ đầy mà không ai thắng
+   - **<span style="color:blue; font-weight:700;">X</span>** = <span style="color:blue;">Xanh</span>
+   - **<span style="color:red; font-weight:700;">O</span>** = <span style="color:red;">Đỏ</span>
+   - **Thắng:** khi có **3 ô liên tiếp** theo **hàng / cột / chéo**
+   - **Hòa:** khi bàn cờ đầy mà **không ai thắng**
 4. Lịch sử người chơi: Mở cửa sổ thống kê để xem số trận thắng/thua.
 5. Kết thúc: Đóng cửa sổ hoặc nhấn Ctrl+C trong terminal để thoát.
 ## 📞 5. Liên hệ
