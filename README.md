@@ -166,11 +166,18 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 **Khởi động Server:**
 ```bash
 java -cp bin server.CaroServer
+```
+- Server sẽ khởi động trên port mặc định (8000) bạn có thể thay đổi.
+- Giao diện server sẽ hiển thị và sẵn sàng nhận kết nối từ client.
+
 **Khởi động Server:**
 ```bash
 java -cp bin client.CaroClient
-
-
+```
+- Mở terminal mới cho mỗi client muốn tham gia
+- Nhập tên người dùng khi được yêu cầu đăng nhập (ví dụ: Phóng, Trường, Long)
+- Client sẽ kết nối đến server và hiển thị giao diện Cờ Caro (3x3)
+  
 ### 🚀 Cách sử dụng ứng dụng
 1. Đăng nhập: Nhập tên người chơi khi mở client.
 2. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
