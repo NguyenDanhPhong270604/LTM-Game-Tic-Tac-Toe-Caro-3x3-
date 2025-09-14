@@ -188,11 +188,11 @@ java -cp bin client.CaroClient
 ### 🚀 Cách sử dụng ứng dụng
 1. Đăng nhập: Nhập tên người chơi khi mở client.
 2. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
-3. Chơi game:
-   - **<span style="color:blue; font-weight:700;">X</span>** = <span style="color:blue;">Xanh</span>
-   - **<span style="color:red; font-weight:700;">O</span>** = <span style="color:red;">Đỏ</span>
-   - **Thắng:** khi có **3 ô liên tiếp** theo **hàng / cột / chéo**
-   - **Hòa:** khi bàn cờ đầy mà **không ai thắng**
+### 🎮 Chơi game:
+- 🟩 **<span style="color:green; font-weight:700;">X</span>** = Xanh lá (người chơi 1)
+- 🟥 **<span style="color:red; font-weight:700;">O</span>** = Đỏ (người chơi 2)
+- 🏆 **Thắng:** Khi có 3 ô liên tiếp hàng / cột / chéo
+- 🤝 **Hòa:** Khi bàn cờ đầy mà không ai thắng
 4. Lịch sử người chơi: Mở cửa sổ thống kê để xem số trận thắng/thua.
 5. Kết thúc: Đóng cửa sổ hoặc nhấn Ctrl+C trong terminal để thoát.
 ## 📞 5. Liên hệ
