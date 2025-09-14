@@ -151,11 +151,11 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
    javac -version
 Đảm bảo cả hai lệnh hiển thị phiên bản >= 8. <br>
 2. Cấu trúc thư mục dự án <br>
-    BTLTicTacToe/
-└── src/
-     ├── client/        # Code giao diện và logic phía client
-     ├── server/        # Code xử lý server & quản lý kết nối
-     └── shared/        # Các class dùng chung giữa client & server
+    BTLTicTacToe/<br>
+└── src/ <br>
+     ├── client/        # Code giao diện và logic phía client <br>
+     ├── server/        # Code xử lý server & quản lý kết nối <br>
+     └── shared/        # Các class dùng chung giữa client & server <br>
    
 #### 🏗 Bước 2: Biên dịch mã nguồn
 1. Mở terminal và điều hướng đến thư mục dự án:
