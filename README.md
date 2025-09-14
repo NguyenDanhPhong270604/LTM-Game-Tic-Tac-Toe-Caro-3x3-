@@ -94,7 +94,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="/BTLTicTacToe/docs/anh1.jpg" alt="Ảnh 1" width="800"/>
+  <img src="docs/anh1.jpg" alt="Ảnh 1" width="800"/>
 </p>
 
 <p align="center">
@@ -139,7 +139,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 - **Java Development Kit (JDK)**: Phiên bản 8 trở lên
 - **Hệ điều hành**: Windows, macOS, hoặc Linux
 - **Môi trường phát triển**: IDE (IntelliJ IDEA, Eclipse)
-- **Bộ nhớ**: Tối thiểu 512MB RAM
+- **Bộ nhớ**: Tối thiểu 512GB và 16GB RAM
   
 ### 📥 4.2. Các bước cài đặt
 #### 🧰 Bước 1: Chuẩn bị môi trường
@@ -149,8 +149,8 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
    ```bash
    java -version
    javac -version
-Đảm bảo cả hai lệnh hiển thị phiên bản >= 8.
-2. Cấu trúc thư mục dự án
+Đảm bảo cả hai lệnh hiển thị phiên bản >= 8. <br>
+2. Cấu trúc thư mục dự án <br>
     BTLTicTacToe/
 └── src/
      ├── client/        # Code giao diện và logic phía client
