@@ -25,8 +25,8 @@
 ## 📖 1. Giới thiệu hệ thống
 Ứng dụng Game Caro 3x3 sử dụng giao thức TCP cho phép nhiều người chơi thách đấu và thi đấu với nhau qua mạng.
 Server chịu trách nhiệm:
-**Client** : cung cấp giao diện chơi game và thách đấu.
-**Server** : đóng vai trò trung tâm, quản lý kết nối, trận đấu và lịch sử người chơi.
+**Client** : cung cấp giao diện chơi game và thách đấu.<br>
+**Server** : đóng vai trò trung tâm, quản lý kết nối, trận đấu và lịch sử người chơi.<br>
 **Lưu trữ dữ liệu** : lịch sử người chơi (thắng/thua) được lưu vào file văn bản. 
 
 Client có giao diện Java Swing, cho phép người dùng:
