@@ -196,7 +196,7 @@ java -cp bin client.CaroClient
 4. Lịch sử người chơi: Mở cửa sổ thống kê để xem số trận thắng/thua.
 5. Kết thúc: Đóng cửa sổ để thoát.
 ## 📞 5. Liên hệ
-- <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20"/> **Email**: [danhphong200412@gmail.com](mailto:danhphong200412@gmail.com)  
-- <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20"/> **GitHub**: [NguyenDanhPhong270604](https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-)
+<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20"/> **Email**: [danhphong200412@gmail.com](mailto:danhphong200412@gmail.com)  
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20"/> **GitHub**: [NguyenDanhPhong270604](https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-)
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
