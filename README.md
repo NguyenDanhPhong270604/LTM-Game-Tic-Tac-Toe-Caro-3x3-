@@ -40,25 +40,25 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ## 🛠 2. Các chức năng chính
 
 ### **Server**
-- 🔌 **Kết nối & Quản lý** – Port `8000`, hỗ trợ đa luồng  
-- 🎯 **Quản lý trận đấu** – Logic game Caro 3x3  
-- 📊 **Theo dõi thống kê** – Thắng/thua của người chơi  
-- 💾 **Lưu trữ lịch sử** – File `player_history.txt`  
-- 👥 **Quản lý Client** – Danh sách người chơi online  
+🔌 **Kết nối & Quản lý** – Port `8000`, hỗ trợ đa luồng  
+🎯 **Quản lý trận đấu** – Logic game Caro 3x3  
+📊 **Theo dõi thống kê** – Thắng/thua của người chơi  
+💾 **Lưu trữ lịch sử** – File `player_history.txt`  
+👥 **Quản lý Client** – Danh sách người chơi online  
 
 ### **Client**
-- 🔗 **Kết nối đến Server** – Giao tiếp qua TCP  
-- 🎨 **Giao diện đồ họa** – Java Swing  
-- ⚡ **Thách đấu real-time** – Chọn người chơi online  
-- 🎮 **Chơi game Caro** – X màu xanh, O màu đỏ  
-- 📊 **Xem lịch sử** – Thống kê người chơi  
-- 🔄 **Làm mới** – Reset bàn cờ và trạng thái  
+🔗 **Kết nối đến Server** – Giao tiếp qua TCP  
+🎨 **Giao diện đồ họa** – Java Swing  
+⚡ **Thách đấu real-time** – Chọn người chơi online  
+🎮 **Chơi game Caro** – X màu xanh, O màu đỏ  
+📊 **Xem lịch sử** – Thống kê người chơi  
+🔄 **Làm mới** – Reset bàn cờ và trạng thái  
 
 ### **Hệ Thống**
-- 🌐 **Giao thức TCP** – `ServerSocket` và `Socket`, đa luồng  
-- 💾 **Lưu trữ dữ liệu** – File I/O cho lịch sử người chơi  
-- 🛡️ **Xử lý Lỗi** – Thông báo lỗi trong GUI, debug log  
-- 🏆 **Logic game** – Kiểm tra thắng thua 3x3  
+🌐 **Giao thức TCP** – `ServerSocket` và `Socket`, đa luồng  
+💾 **Lưu trữ dữ liệu** – File I/O cho lịch sử người chơi  
+🛡️ **Xử lý Lỗi** – Thông báo lỗi trong GUI, debug log  
+🏆 **Logic game** – Kiểm tra thắng thua 3x3  
 
 ### **Luật Chơi**
 - Bàn cờ **3x3**  
