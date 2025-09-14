@@ -150,7 +150,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
    java -version
    javac -version
 Đảm bảo cả hai lệnh hiển thị phiên bản >= 8. <br>
-2. Cấu trúc thư mục dự án <br>
+2. **Cấu trúc thư mục dự án** <br>
     BTLTicTacToe/<br>
 └── src/ <br>
      ├── client/        # Code giao diện và logic phía client <br>
@@ -158,18 +158,20 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
      └── shared/        # Các class dùng chung giữa client & server <br>
    
 #### 🏗 Bước 2: Biên dịch mã nguồn
-1. Mở terminal và điều hướng đến thư mục dự án:
+1. Mở terminal và điều hướng đến thư mục dự án: <br>
    cd D:\Download\BTLTicTacToe>
-2. Biên dịch tất cả file Java
+2. Biên dịch tất cả file Java <br>
    javac *.java
-#### ▶️ Bước 3: Chạy ứng dụng
-Khởi động Server:
+#### ▶️ Bước 3: Chạy ứng dụng 
+**Khởi động Server**: <br>
+```bash
     java -cp bin server.CaroServer
 Server sẽ khởi động trên port mặc định (8000) bạn có thể thay đổi.
 
 Giao diện server sẽ hiển thị và sẵn sàng nhận kết nối từ client
 
-Khởi động Client:
+**Khởi động Client**: <br>
+```bash
     java -cp bin client.CaroClient
 Mở terminal mới cho mỗi client muốn tham gia
 
