@@ -23,8 +23,7 @@
 
 ---
 ## 📖 1. Giới thiệu hệ thống
-Ứng dụng Game Caro 3x3 sử dụng giao thức TCP cho phép nhiều người chơi thách đấu và thi đấu với nhau qua mạng.
-Server chịu trách nhiệm:<br>
+Ứng dụng Game Caro 3x3 sử dụng giao thức TCP cho phép nhiều người chơi thách đấu và thi đấu với nhau qua mạng.<br>
 **Client** : cung cấp giao diện chơi game và thách đấu.<br>
 **Server** : đóng vai trò trung tâm, quản lý kết nối, trận đấu và lịch sử người chơi.<br>
 **Lưu trữ dữ liệu** : lịch sử người chơi (thắng/thua) được lưu vào file văn bản. 
@@ -40,27 +39,27 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 
 🎮 Các chức năng chính:
 **Server**
-🔌 Kết nối & Quản lý - Port 8000, đa luồng
-🎯 Quản lý trận đấu - Logic game Caro 3x3
-📊 Theo dõi thống kê - Thắng/thua của người chơi
-💾 Lưu trữ lịch sử - File player_history.txt
-👥 Quản lý Client - Danh sách người chơi online
+🔌 Kết nối & Quản lý - Port 8000, đa luồng <br>
+🎯 Quản lý trận đấu - Logic game Caro 3x3 <br>
+📊 Theo dõi thống kê - Thắng/thua của người chơi <br>
+💾 Lưu trữ lịch sử - File player_history.txt <br>
+👥 Quản lý Client - Danh sách người chơi online <br>
 **Client**
-🔗 Kết nối đến Server - Giao tiếp qua TCP
-🎨 Giao diện đồ họa - Java Swing
-⚡ Thách đấu real-time - Chọn người chơi online
-🎮 Chơi game Caro - X màu xanh, O màu đỏ
-📊 Xem lịch sử - Thống kê người chơi
-🔄 Làm mới - Reset bàn cờ và trạng thái
+🔗 Kết nối đến Server - Giao tiếp qua TCP <br>
+🎨 Giao diện đồ họa - Java Swing <br>
+⚡ Thách đấu real-time - Chọn người chơi online <br>
+🎮 Chơi game Caro - X màu xanh, O màu đỏ <br>
+📊 Xem lịch sử - Thống kê người chơi <br>
+🔄 Làm mới - Reset bàn cờ và trạng thái <br>
 **Hệ Thống**
-🌐 Giao thức TCP - ServerSocket và Socket, đa luồng
-💾 Lưu trữ dữ liệu - File I/O cho lịch sử người chơi
-🛡️ Xử lý Lỗi - Thông báo lỗi trong GUI, debug log
-🏆 Logic game - Kiểm tra thắng thua 3x3
+🌐 Giao thức TCP - ServerSocket và Socket, đa luồng <br>
+💾 Lưu trữ dữ liệu - File I/O cho lịch sử người chơi <br>
+🛡️ Xử lý Lỗi - Thông báo lỗi trong GUI, debug log <br>
+🏆 Logic game - Kiểm tra thắng thua 3x3 <br>
 **Luật Chơi**
-Bàn cờ 3x3
-Thắng khi có 3 quân cùng hàng, cột hoặc chéo
-Hòa khi bàn cờ đầy không có người thắng
+Bàn cờ 3x3 <br>
+Thắng khi có 3 quân cùng hàng, cột hoặc chéo <br>
+Hòa khi bàn cờ đầy không có người thắng <br>
 ---
 
 ## 🔧 2. Công nghệ sử dụng
