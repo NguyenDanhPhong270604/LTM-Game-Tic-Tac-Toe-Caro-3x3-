@@ -37,29 +37,34 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 - Không mất gói dữ liệu (các nước đi được truyền đầy đủ, chính xác).  
 - Duy trì kết nối liên tục cho đến khi trận đấu kết thúc.  
 
-🎮 Các chức năng chính:<br>
-**Server** <br>
-🔌 Kết nối & Quản lý - Port 8000, đa luồng <br>
-🎯 Quản lý trận đấu - Logic game Caro 3x3 <br>
-📊 Theo dõi thống kê - Thắng/thua của người chơi <br>
-💾 Lưu trữ lịch sử - File player_history.txt <br>
-👥 Quản lý Client - Danh sách người chơi online <br>
-**Client** <br>
-🔗 Kết nối đến Server - Giao tiếp qua TCP <br>
-🎨 Giao diện đồ họa - Java Swing <br>
-⚡ Thách đấu real-time - Chọn người chơi online <br>
-🎮 Chơi game Caro - X màu xanh, O màu đỏ <br>
-📊 Xem lịch sử - Thống kê người chơi <br>
-🔄 Làm mới - Reset bàn cờ và trạng thái <br>
-**Hệ Thống** <br>
-🌐 Giao thức TCP - ServerSocket và Socket, đa luồng <br>
-💾 Lưu trữ dữ liệu - File I/O cho lịch sử người chơi <br>
-🛡️ Xử lý Lỗi - Thông báo lỗi trong GUI, debug log <br>
-🏆 Logic game - Kiểm tra thắng thua 3x3 <br>
-**Luật Chơi** <br>
-Bàn cờ 3x3 <br>
-Thắng khi có 3 quân cùng hàng, cột hoặc chéo <br>
-Hòa khi bàn cờ đầy không có người thắng <br>
+## 🛠 2. Các chức năng chính
+
+### **Server**
+- 🔌 **Kết nối & Quản lý** – Port `8000`, hỗ trợ đa luồng  
+- 🎯 **Quản lý trận đấu** – Logic game Caro 3x3  
+- 📊 **Theo dõi thống kê** – Thắng/thua của người chơi  
+- 💾 **Lưu trữ lịch sử** – File `player_history.txt`  
+- 👥 **Quản lý Client** – Danh sách người chơi online  
+
+### **Client**
+- 🔗 **Kết nối đến Server** – Giao tiếp qua TCP  
+- 🎨 **Giao diện đồ họa** – Java Swing  
+- ⚡ **Thách đấu real-time** – Chọn người chơi online  
+- 🎮 **Chơi game Caro** – X màu xanh, O màu đỏ  
+- 📊 **Xem lịch sử** – Thống kê người chơi  
+- 🔄 **Làm mới** – Reset bàn cờ và trạng thái  
+
+### **Hệ Thống**
+- 🌐 **Giao thức TCP** – `ServerSocket` và `Socket`, đa luồng  
+- 💾 **Lưu trữ dữ liệu** – File I/O cho lịch sử người chơi  
+- 🛡️ **Xử lý Lỗi** – Thông báo lỗi trong GUI, debug log  
+- 🏆 **Logic game** – Kiểm tra thắng thua 3x3  
+
+### **Luật Chơi**
+- Bàn cờ **3x3**  
+- Thắng khi có **3 quân liên tiếp** theo hàng, cột hoặc chéo  
+- Hòa khi bàn cờ đầy không có người thắng  
+
 ---
 
 ## 🔧 2. Công nghệ sử dụng
@@ -71,68 +76,100 @@ Hòa khi bàn cờ đầy không có người thắng <br>
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="docs/anhGiaoDien.jpg" alt="Ảnh 1" width="800"/>
+  <img src="docs/anh1.jpg" alt="Ảnh 1" width="800"/>
 </p>
 
 <p align="center">
-  <em>Hình 1: Giao diện chat giữa Client-Server </em>
+  <em>Hình 1: Giao diện đăng nhập </em>
 </p>
 
 <p align="center">
-  <img src="docs/anhClientChatServer.jpg" alt="Ảnh 2" width="700"/>
+  <img src="docs/anh2.jpg" alt="Ảnh 2" width="700"/>
 </p>
 <p align="center">
-  <em> Hình 2: Client chat với Server</em>
+  <em> Hình 2: Giao diện Cờ Caro(3x3)</em>
 </p>
 
 
 <p align="center">
-  <img src="docs/anhLichSuChatLuuTxt.jpg" alt="Ảnh 3" width="500"/>
+  <img src="docs/anh3.jpg" alt="Ảnh 3" width="500"/>
  
 </p>
 <p align="center">
-  <em> Hình 3: Ảnh lịch sử chat được lưu vào file txt </em>
+  <em> Hình 3: Giao diện bạn thắng </em>
 </p>
 
 <p align="center">
-    <img src="docs/anhServerxoaDL.jpg" alt="Ảnh 4" width="450"/>
+    <img src="docs/anh4.jpg" alt="Ảnh 4" width="450"/>
 </p>
 <p align="center">
-  <em> Hình 4: Ảnh Server xóa dữ liệu</em>
+  <em> Hình 4: Giao diện bạn thua</em>
 </p>
 
 <p align="center">
-  <img src="docs/anhServerngatKetNoiClient.jpg" alt="Ảnh 5" width="300"/>
+  <img src="docs/anh5.jpg" alt="Ảnh 5" width="300"/>
 </p>
 <p align="center">
-  <em> Hình 7: Ảnh Server ngắt kết nối với CLient</em>
+  <em> Hình 5: Giao diện lịch sử thắng hoặc thua</em>
 </p>
 
 ---
 
-## ⚙️ 4. Các bước cài đặt & Chạy ứng dụng
+## ⚙️ 4. Các bước cài đặt & Chạy ứng dụng 
 
-1. **Clone dự án**  
-   git clone https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-.git   
-   cd LTM-Game-Tic-Tac-Toe-Caro-3x3-
+### 🛠️ 4.1. Yêu cầu hệ thống
+- **Java Development Kit (JDK)**: Phiên bản 8 trở lên
+- **Hệ điều hành**: Windows, macOS, hoặc Linux
+- **Môi trường phát triển**: IDE (IntelliJ IDEA, Eclipse)
+- **Bộ nhớ**: Tối thiểu 512MB RAM
+  
+### 📥 4.2. Các bước cài đặt
+#### 🧰 Bước 1: Chuẩn bị môi trường
+1. **Cài đặt Java**  
+   Dự án yêu cầu **JDK 8** trở lên (JDK 21 cũng chạy được).  
+   Kiểm tra bằng:
+   ```bash
+   java -version
+   javac -version
+Đảm bảo cả hai lệnh hiển thị phiên bản >= 8.
+2. Cấu trúc thư mục dự án
+    BTLTicTacToe/
+└── src/
+     ├── client/        # Code giao diện và logic phía client
+     ├── server/        # Code xử lý server & quản lý kết nối
+     └── shared/        # Các class dùng chung giữa client & server
+   
+#### 🏗 Bước 2: Biên dịch mã nguồn
+1. Mở terminal và điều hướng đến thư mục dự án:
+   cd D:\Download\BTLTicTacToe>
+2. Biên dịch tất cả file Java
+   javac *.java
+#### ▶️ Bước 3: Chạy ứng dụng
+Khởi động Server:
+    java -cp bin server.CaroServer
+Server sẽ khởi động trên port mặc định (8000) bạn có thể thay đổi.
 
-### 🖥️ Yêu cầu hệ thống
-- **Java Development Kit (JDK)** phiên bản **8** hoặc cao hơn.  
-- **IDE** (IntelliJ IDEA / NetBeans / Eclipse) hoặc **Terminal/Command Prompt** để biên dịch và chạy mã.  
+Giao diện server sẽ hiển thị và sẵn sàng nhận kết nối từ client
 
----
+Khởi động Client:
+    java -cp bin client.CaroClient
+Mở terminal mới cho mỗi client muốn tham gia
 
-### 📂 Chuẩn bị mã nguồn
-- Đảm bảo bạn đã có đầy đủ các file trong package `Cờ caro (3x3)`, bao gồm:
-  - `Server.java`
-  - `Client.java`
-  - `DatabaseManager`
-  - `GameSession`)
+Nhập tên người dùng khi được yêu cầu đăng nhập (ví dụ: Phóng, Trường, Long)
 
----
+Client sẽ kết nối đến server và hiển thị giao diện Cờ Caro (3x3)
 
+### 🚀 Cách sử dụng ứng dụng
+1. Đăng nhập: Nhập tên người chơi khi mở client.
+2. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
+3. Chơi game:
+   - X màu xanh, O màu đỏ
+   - Thắng khi có 3 ô liên tiếp hàng/cột/chéo
+   - Hòa khi bàn cờ đầy mà không ai thắng
+4. Lịch sử người chơi: Mở cửa sổ thống kê để xem số trận thắng/thua.
+5. Kết thúc: Đóng cửa sổ hoặc nhấn Ctrl+C trong terminal để thoát.
 ## 📞 5. Liên hệ
-- Email: danhphong200412@gmail.com 
-- Github: https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-
+**Email** : danhphong200412@gmail.com 
+**Github**: https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
