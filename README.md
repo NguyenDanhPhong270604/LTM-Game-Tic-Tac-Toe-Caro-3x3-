@@ -60,11 +60,18 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 🛡️ **Xử lý Lỗi** – Thông báo lỗi trong GUI, debug log  
 🏆 **Logic game** – Kiểm tra thắng thua 3x3  
 
-### **Luật Chơi**
-- Bàn cờ **3x3**  
-- Thắng khi có **3 quân liên tiếp** theo hàng, cột hoặc chéo  
-- Hòa khi bàn cờ đầy không có người thắng  
+### 🎲 **Luật Chơi**
+- 🟩 **Bàn cờ:** 3x3 (9 ô)  
+- 🏆 **Thắng:** khi có 3 quân liên tiếp theo **hàng**, **cột** hoặc **chéo**  
+- 🤝 **Hòa:** khi bàn cờ đã đầy mà **không có ai thắng**  
+- 🎨 **Ký hiệu:**  
+  - ❌ X = màu xanh  
+  - ⭕ O = màu đỏ    
+📌 **Ví dụ bàn cờ thắng:**
 
+        ❌ ⬜ ⭕
+        ⬜ ❌ ⭕
+        ⬜ ⬜ ❌
 ---
 
 ## 🔧 2. Công nghệ sử dụng
