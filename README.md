@@ -65,8 +65,8 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 🏆 **Thắng:** khi có 3 quân liên tiếp theo **hàng**, **cột** hoặc **chéo**  
 🤝 **Hòa:** khi bàn cờ đã đầy mà **không có ai thắng**  
 🎨 **Ký hiệu:**  
-    ❌ X = màu xanh  
-    ⭕ O = màu đỏ    
+    - ❌ X = màu xanh  
+    - ⭕ O = màu đỏ      
     
 📌 **Ví dụ bàn cờ thắng:**
 
