@@ -1,4 +1,4 @@
-<img width="360" height="197" alt="image" src="https://github.com/user-attachments/assets/dcbed660-8a2a-4459-a6bf-5cea8a6dd00c" /><h2 align="center">
+<h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
@@ -94,7 +94,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="docs/anh1.jpg" alt="Ảnh 1" width="700"/>
+  <img src="docs/anh1.jpg" alt="Ảnh 1" width="500"/>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-  <img src="docs/anh2.jpg" alt="Ảnh 2" width="600"/>
+  <img src="docs/anh2.jpg" alt="Ảnh 2" width="500"/>
 </p>
 <p align="center">
   <em> Hình 2: Giao diện Cờ Caro(3x3)</em>
@@ -118,14 +118,14 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-    <img src="docs/anh4.jpg" alt="Ảnh 4" width="450"/>
+    <img src="docs/anh4.jpg" alt="Ảnh 4" width="500"/>
 </p>
 <p align="center">
   <em> Hình 4: Giao diện bạn thua</em>
 </p>
 
 <p align="center">
-  <img src="docs/anh5.jpg" alt="Ảnh 5" width="300"/>
+  <img src="docs/anh5.jpg" alt="Ảnh 5" width="500"/>
 </p>
 <p align="center">
   <em> Hình 5: Giao diện lịch sử thắng hoặc thua</em>
