@@ -94,7 +94,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="docs/anh1.jpg" alt="Ảnh 1" width="800"/>
+  <img src="docs/anh1.jpg" alt="Ảnh 1" width="700"/>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-  <img src="docs/anh2.jpg" alt="Ảnh 2" width="700"/>
+  <img src="docs/anh2.jpg" alt="Ảnh 2" width="600"/>
 </p>
 <p align="center">
   <em> Hình 2: Giao diện Cờ Caro(3x3)</em>
