@@ -37,8 +37,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 - Không mất gói dữ liệu (các nước đi được truyền đầy đủ, chính xác).  
 - Duy trì kết nối liên tục cho đến khi trận đấu kết thúc.  
 
-## 🛠 2. Các chức năng chính
-
+ Các chức năng chính
 ### **Server**
 🔌 **Kết nối & Quản lý** – Port `8000`, hỗ trợ đa luồng  
 🎯 **Quản lý trận đấu** – Logic game Caro 3x3  
