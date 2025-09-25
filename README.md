@@ -109,16 +109,12 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-  <em>Hình 3: Giao diện Game cờ caro(3x3) </em>
-</p>
-
-<p align="center">
   <img src="docs/gd2nguoichs.jpg" alt="Ảnh 2" width="600"/>
 </p>
-<p align="center">
-  <em> Hình 4: Giao diện 2 người chơi với nhau</em>
-</p>
 
+<p align="center">
+  <em>Hình 3: Giao diện Game cờ caro(3x3) </em>
+</p
 
 <p align="center">
   <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
