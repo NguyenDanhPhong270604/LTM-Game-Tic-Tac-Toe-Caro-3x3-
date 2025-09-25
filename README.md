@@ -92,35 +92,52 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 
 ## 🚀 3. Hình ảnh các chức năng
 
-<div style="text-align: center;">
+<p align="center">
   <img src="docs/anh1.jpg" alt="Ảnh 1" width="600"/>
-  <p><em>Hình 1: Giao diện đăng nhập</em></p>
-</div>
+</p>
 
-<div style="text-align: center;">
-  <img src="docs/anhdangky.jpg" alt="Ảnh 2" width="600"/>
-  <p><em>Hình 2: Giao diện đăng ký</em></p>
-</div>
+<p align="center">
+  <em>Hình 1: Giao diện đăng nhập </em>
+</p>
 
-<div style="text-align: center;">
-  <img src="docs/gd2nguoichs.jpg" alt="Ảnh 3" width="600"/>
-  <p><em>Hình 3: Giao diện Game cờ caro(3x3)</em></p>
-</div>
+<p align="center">
+  <img src="docs/anhdangky.jpg" alt="Ảnh 1" width="600"/>
+</p>
 
-<div style="text-align: center;">
-  <img src="docs/banthang.jpg" alt="Ảnh 4" width="600"/>
-  <p><em>Hình 4: Giao diện bạn thắng</em></p>
-</div>
+<p align="center">
+  <em>Hình 2: Giao diện đăng ký </em>
+</p>
 
-<div style="text-align: center;">
-  <img src="docs/banthua.jpg" alt="Ảnh 5" width="600"/>
-  <p><em>Hình 5: Giao diện bạn thua</em></p>
-</div>
+<p align="center">
+  <img src="docs/gd2nguoichs.jpg" alt="Ảnh 2" width="600"/>
+</p>
 
-<div style="text-align: center;">
-  <img src="docs/bxh.jpg" alt="Ảnh 6" width="600"/>
-  <p><em>Hình 6: Bảng xếp hạng Top</em></p>
-</div>
+<p align="center">
+  <em>Hình 3: Giao diện Game cờ caro(3x3) </em>
+</p
+
+<p align="center">
+  <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
+</p>
+
+<p align="center">
+  <em> Hình 4: Giao diện bạn thắng </em>
+</p>
+
+<p align="center">
+    <img src="docs/banthua.jpg" alt="Ảnh 4" width="600"/>
+</p>
+
+<p align="center">
+  <em> Hình 5: Giao diện bạn thua</em>
+</p>
+
+<p align="center">
+  <img src="docs/bxh.jpg" alt="Ảnh 5" width="600"/>
+</p>
+<p align="center">
+  <em> Hình 6: Bảng xếp hạng Top</em>
+</p>
 
 ---
 
