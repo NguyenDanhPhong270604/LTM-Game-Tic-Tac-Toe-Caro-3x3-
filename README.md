@@ -119,9 +119,8 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 <p align="center">
   <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
 </p>
-
 <p align="center">
-  <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
+  <em>Hình 4: Giao diện bạn thắng </em>
 </p>
 
 <p align="center">
