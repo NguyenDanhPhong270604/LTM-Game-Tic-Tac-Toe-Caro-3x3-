@@ -101,15 +101,39 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-  <img src="docs/anh2.jpg" alt="Ảnh 2" width="600"/>
+  <img src="docs/anhdangky.jpg" alt="Ảnh 1" width="600"/>
+</p>
+
+<p align="center">
+  <em>Hình 2: Giao diện đăng ký </em>
+</p>
+
+<p align="center">
+  <img src="docs/anh2.jpg" alt="Ảnh 1" width="600"/>
+</p>
+
+<p align="center">
+  <em>Hình 3: Giao diện Game cờ caro(3x3) </em>
+</p>
+
+<p align="center">
+  <img src="docs/anhonline.jpg" alt="Ảnh 1" width="600"/>
+</p>
+
+<p align="center">
+  <em>Hình 4: Giao diện người chơi online </em>
+</p>
+
+<p align="center">
+  <img src="docs/gd2nguoichs.jpg" alt="Ảnh 2" width="600"/>
 </p>
 <p align="center">
-  <em> Hình 2: Giao diện Cờ Caro(3x3)</em>
+  <em> Hình 5: Giao diện 2 người chơi với nhau</em>
 </p>
 
 
 <p align="center">
-  <img src="docs/anh3.jpg" alt="Ảnh 3" width="600"/>
+  <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
  
 </p>
 <p align="center">
@@ -117,17 +141,17 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-    <img src="docs/anh4.jpg" alt="Ảnh 4" width="600"/>
+    <img src="docs/banthua.jpg" alt="Ảnh 4" width="600"/>
 </p>
 <p align="center">
   <em> Hình 4: Giao diện bạn thua</em>
 </p>
 
 <p align="center">
-  <img src="docs/anh5.jpg" alt="Ảnh 5" width="600"/>
+  <img src="docs/bxh.jpg" alt="Ảnh 5" width="600"/>
 </p>
 <p align="center">
-  <em> Hình 5: Giao diện lịch sử thắng hoặc thua</em>
+  <em> Hình 5: Bảng xếp hạng TOP</em>
 </p>
 
 ---
@@ -195,6 +219,7 @@ java -cp bin client.CaroClient
 4. Lịch sử người chơi: Mở cửa sổ thống kê để xem số trận thắng/thua.
 5. Kết thúc: Đóng cửa sổ để thoát.
 ## 📞 5. Liên hệ
+<img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" width="20"/> **Họ và tên**: Nguyễn Danh Phóng  
 <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20"/> **Email**: [danhphong200412@gmail.com](mailto:danhphong200412@gmail.com)  
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20"/> **GitHub**: [NguyenDanhPhong270604](https://github.com/NguyenDanhPhong270604/LTM-Game-Tic-Tac-Toe-Caro-3x3-)
 
