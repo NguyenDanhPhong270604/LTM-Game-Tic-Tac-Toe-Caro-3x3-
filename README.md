@@ -5,7 +5,7 @@
 </h2>
 
 <h2 align="center">
-   GAME TIC TAC TOE (CARO 3x3) SỬ DỤNG GIAO THỨC TCP
+   GAME TIC TAC TOE (CARO 3x3)
 </h2>
 
 <div align="center">
