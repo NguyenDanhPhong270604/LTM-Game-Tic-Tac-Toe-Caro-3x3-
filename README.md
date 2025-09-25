@@ -121,7 +121,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-  <em>Hình 4: Giao diện bạn thắng </em>
+  <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
 </p>
 
 <p align="center">
