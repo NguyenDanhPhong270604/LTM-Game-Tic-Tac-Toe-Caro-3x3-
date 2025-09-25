@@ -114,7 +114,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 
 <p align="center">
   <em>Hình 3: Giao diện Game cờ caro(3x3) </em>
-</p
+</p>
 
 <p align="center">
   <img src="docs/banthang.jpg" alt="Ảnh 3" width="600"/>
