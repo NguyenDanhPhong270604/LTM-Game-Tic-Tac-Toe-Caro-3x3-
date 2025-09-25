@@ -121,21 +121,21 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
  
 </p>
 <p align="center">
-  <em> Hình 5: Giao diện bạn thắng </em>
+  <em> Hình 4: Giao diện bạn thắng </em>
 </p>
 
 <p align="center">
     <img src="docs/banthua.jpg" alt="Ảnh 4" width="600"/>
 </p>
 <p align="center">
-  <em> Hình 6: Giao diện bạn thua</em>
+  <em> Hình 5: Giao diện bạn thua</em>
 </p>
 
 <p align="center">
   <img src="docs/bxh.jpg" alt="Ảnh 5" width="600"/>
 </p>
 <p align="center">
-  <em> Hình 7: Bảng xếp hạng Top</em>
+  <em> Hình 6: Bảng xếp hạng Top</em>
 </p>
 
 ---
