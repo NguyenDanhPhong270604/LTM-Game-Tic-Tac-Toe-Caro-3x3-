@@ -109,10 +109,6 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 </p>
 
 <p align="center">
-  <img src="docs/anh2.jpg" alt="Ảnh 1" width="600"/>
-</p>
-
-<p align="center">
   <em>Hình 3: Giao diện Game cờ caro(3x3) </em>
 </p>
 
@@ -143,7 +139,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
   <img src="docs/bxh.jpg" alt="Ảnh 5" width="600"/>
 </p>
 <p align="center">
-  <em> Hình 7: Bảng xếp hạng TOP</em>
+  <em> Hình 7: Bảng xếp hạng Top</em>
 </p>
 
 ---
