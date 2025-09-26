@@ -89,7 +89,11 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
   <a href="https://docs.oracle.com/javase/tutorial/uiswing/">
     <img src="https://img.shields.io/badge/Java-Swing-orange?style=for-the-badge" />
   </a>
+  <a href="https://www.mongodb.com/">
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  </a>
 </p>
+
 
 ## 🚀 3. Hình ảnh các chức năng
 
