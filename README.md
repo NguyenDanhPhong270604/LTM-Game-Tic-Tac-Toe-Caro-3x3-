@@ -26,7 +26,8 @@
 Ứng dụng Game Caro 3x3 sử dụng giao thức TCP cho phép nhiều người chơi thách đấu và thi đấu với nhau qua mạng.<br>
 **Client** : cung cấp giao diện chơi game và thách đấu.<br>
 **Server** : đóng vai trò trung tâm, quản lý kết nối, trận đấu và lịch sử người chơi.<br>
-**Lưu trữ dữ liệu** : lịch sử người chơi (thắng/thua) được lưu vào file văn bản. 
+**Lưu trữ dữ liệu** : lịch sử người chơi được lưu vào file văn bản. 
+**Lưu trữ tài khoản**: MongoDB
 
 Client có giao diện Java Swing, cho phép người dùng:
 - Đăng nhập/nhập tên người chơi.  
