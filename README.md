@@ -143,19 +143,18 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ## ⚙️ 4. Các bước cài đặt & Chạy ứng dụng 
 
 ### 🛠️ 4.1. Yêu cầu hệ thống
-- **Java Development Kit (JDK)**: Phiên bản 8 trở lên
+- **Java Development Kit (JDK)**: Phiên bản 21
 - **Hệ điều hành**: Windows, macOS, hoặc Linux
 - **Môi trường phát triển**: IDE (IntelliJ IDEA, Eclipse)
-- **Bộ nhớ**: Tối thiểu 512GB và 16GB RAM
   
 ### 📥 4.2. Các bước cài đặt
 #### 🧰 Bước 1: Chuẩn bị môi trường
 1. **Cài đặt Java**  
-   Dự án yêu cầu **JDK 8** trở lên (JDK 21 cũng chạy được).  
+   Dự án yêu cầu **JDK 21**.  
    Kiểm tra bằng:
    ```bash
    java -version
-   javac -version
+
 Đảm bảo cả hai lệnh hiển thị phiên bản >= 8. <br>
 2. **Cấu trúc thư mục dự án** <br>
 ```bash
@@ -173,7 +172,7 @@ Giao thức TCP được chọn vì tính đảm bảo truyền tin cậy:
 ```
 2. Biên dịch tất cả file Java <br>
 ```bash
-   javac *.java
+   java *.java
 ```
 
 #### ▶️ Bước 3: Chạy ứng dụng 
@@ -188,13 +187,15 @@ java -cp bin server.CaroServer
 ```bash
 java -cp bin client.CaroClient
 ```
-- Mở terminal mới cho mỗi client muốn tham gia
-- Nhập tên người dùng khi được yêu cầu đăng nhập (ví dụ: Phóng, Trường, Long)
+- Mở terminal mới cho mỗi client muốn tham gia.
+- Bắt buộc người chơi phải đăng ký tài khoản mới tham gia được trò chơi.
+- Nhập tên người dùng khi được yêu cầu đăng nhập.
 - Client sẽ kết nối đến server và hiển thị giao diện Cờ Caro (3x3)
   
 ### 🚀 Cách Chơi
-1. Đăng nhập: Nhập tên người chơi khi mở client.
-2. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
+1. Đăng ký tài khoản mới khi người dùng chưa có tài khoản.
+2. Đăng nhập: Nhập tên người chơi khi mở client.
+3. Xem danh sách online: Chọn người chơi khác và bấm nút Thách Đấu.
 ### 🎮 Chơi game:
 - 🟩 **<span style="color:green; font-weight:700;">X</span>** = Xanh lá (người chơi 1)
 - 🟥 **<span style="color:red; font-weight:700;">O</span>** = Đỏ (người chơi 2)
